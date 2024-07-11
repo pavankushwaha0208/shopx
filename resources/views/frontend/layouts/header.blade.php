@@ -54,7 +54,7 @@
                     <div class="top-link pe-2">
                         <a href="{{'/SignUp'}}" class="text-white"><small class="text-white fw-bold mx-2">Register</small></a>
                         <a href="{{'/SignIn'}}" class="text-white"><small class="text-white fw-bold mx-2">Log in</small></a>
-                        <a href="#" class="text-white"><small class="text-white fw-bold ms-2">DeshBord</small></a>
+                        <a href="{{'/DashBoard/Home'}}" class="text-white"><small class="text-white fw-bold ms-2">DeshBord</small></a>
                     </div>
                 </div>
             </div>
