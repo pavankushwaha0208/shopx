@@ -69,7 +69,7 @@
                             <a href="{{'/'}}" class="nav-item nav-link">Home</a>
                             <a href="shop.php" class="nav-item nav-link">Shop</a>
                             <a href="{{'/ShopDetail'}}" class="nav-item nav-link">Shop Detail</a>
-                            <div class="nav-item dropdown">
+                            {{-- <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                                 <div class="dropdown-menu m-0 bg-secondary rounded-0">
                                     <a href="cart.php" class="dropdown-item">Cart</a>
@@ -77,7 +77,7 @@
                                     <a href="testimonial.php" class="dropdown-item">Testimonial</a>
                                     <a href="404.php" class="dropdown-item">404 Page</a>
                                 </div>
-                            </div>
+                            </div> --}}
                             <a href="contact.php" class="nav-item nav-link">Contact</a>
                         </div>
                         <div class="d-flex m-3 me-0">
@@ -86,9 +86,17 @@
                                 <i class="fa fa-shopping-bag fa-2x"></i>
                                 <span class="position-absolute bg-secondary rounded-circle d-flex align-items-center justify-content-center text-dark px-1" style="top: -5px; left: 15px; height: 20px; min-width: 20px;">3</span>
                             </a>
-                            <a href="#" class="my-auto">
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
                                 <i class="fas fa-user fa-2x"></i>
-                            </a>
+                                </a>
+                                <div class="dropdown-menu m-0 bg-secondary rounded-0">
+                                    <a href="cart.php" class="dropdown-item">Cart</a>
+                                    <a href="chackout.php" class="dropdown-item">Chackout</a>
+                                    <a href="testimonial.php" class="dropdown-item">Testimonial</a>
+                                    <a href="404.php" class="dropdown-item">404 Page</a>
+                                </div>
+                            </div>                            
                         </div>
                     </div>
                 </nav>
